@@ -29,7 +29,7 @@ const AboutTeam = () => {
         <div className="row text-center ">
           <h1 className='text-center mb-5'>People</h1>
           <div className="col mt-5">
-            <img className='rounded-circle' style={{width:"55%"}} src='media/images/nithinKamath.jpg' />
+            <img className='rounded-circle' style={{width:"55%"}} src={`${import.meta.env.BASE_URL}media/images/nithinKamath.jpg`}  />
             <h5 className='mt-3'>Nithin Kamath</h5>
             <p className='mt-3 text-muted'>Founder, CEO</p>
           </div>

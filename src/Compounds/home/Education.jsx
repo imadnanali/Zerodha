@@ -5,7 +5,7 @@ function Education() {
     <div className='container py-5'>
         <div className='row'>
             <div className='col-6'>
-                <img src='media/images/education.svg' style={{width:"80%"}}/>
+                <img src={`${import.meta.env.BASE_URL}media/images/education.svg`}  style={{width:"80%"}}/>
 
             </div>
             <div className='col-6'>
